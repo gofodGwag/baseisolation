@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["tld_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["tld_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -1583,7 +1583,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:4.15},19,cjs.Ease.none).to({x:-0.05},20).to({x:-4.55},20,cjs.Ease.none).to({x:-0.05},20).wait(1));
 
 	// Layer_3
-	this.instance_4 = new lib.CachedBmp_1();
+	this.instance_4 = new lib.CachedBmp_3();
 	this.instance_4.setTransform(-147.15,-199.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(80));
@@ -1613,7 +1613,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.frame).to({skewX:4.0004,y:282.7},19,cjs.Ease.none).to({skewX:0,y:282.65},20).to({skewX:-4.0004,x:77.95,y:282.7},20).to({skewX:0},20).wait(1));
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_4();
 	this.instance.setTransform(-68.85,-195.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(80));
@@ -1717,7 +1717,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/tld_atlas_1.png?1636725984464", id:"tld_atlas_1"}
+		{src:"images/tld_atlas_1.png?1636726881370", id:"tld_atlas_1"}
 	],
 	preloads: []
 };
