@@ -1558,29 +1558,29 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Symbol_2
-	this.instance = new lib.Symbol2("synched",0);
-	this.instance.setTransform(123.4,306.65,1,1,0,0,0,18.1,24.9);
+	// Layer_2
+	this.instance = new lib.Symbol7copy("synched",0);
+	this.instance.setTransform(-0.05,282.65,1,1,0,0,0,271.9,391.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:18.2,skewX:9.9999,x:123.5,y:306.6},19).to({regX:18.1,skewX:0,x:123.4,y:306.65},20).to({skewX:-9.9999,x:123.35,y:306.6},20).to({skewX:0,x:123.4,y:306.65},20).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:5.65},4,cjs.Ease.none).to({x:13.45},5).to({x:19.15},5).to({x:28.45},5).to({x:19.55},5).to({x:14.2},5).to({x:7.1},5).to({x:-0.05},5).to({x:-4.55},5).to({x:-9.05},5).to({x:-13.55},5).to({x:-18.05},5).to({x:-13.55},5).to({x:-9.05},5).to({x:-4.55},5).to({x:-0.05},5).wait(1));
 
 	// Symbol_2
 	this.instance_1 = new lib.Symbol2("synched",0);
-	this.instance_1.setTransform(0,306.65,1,1,0,0,0,18.1,24.9);
+	this.instance_1.setTransform(123.4,306.7,1,0.9639,0,0,0,18.1,24.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({skewX:9.9999,x:0.05,y:306.6},19).to({skewX:0,x:0,y:306.65},20).to({skewX:-9.9999,x:-0.05,y:306.6},20).to({skewX:0,x:0,y:306.65},20).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({regX:18.2,regY:25,scaleY:0.9826,skewX:12.1163,x:123.45,y:306.8},4).to({regX:18.3,regY:25.1,scaleY:1.0838,skewX:27.2642,x:123.4,y:306.9},5).to({regX:18.2,scaleY:1.2374,skewX:38.6319,x:123.3,y:306.8},5).to({regY:25,scaleY:1.53,skewX:50.0005,x:123.35,y:306.7},5).to({regX:18.5,regY:25.2,scaleY:1.2586,skewX:39.3457,y:307},5).to({regX:18.4,regY:25.1,scaleY:1.1134,skewX:28.6886,x:123.45,y:306.75},5).to({scaleY:1.0061,skewX:14.3446,y:306.8},5).to({regX:18.1,regY:24.9,scaleY:0.9759,skewX:0,x:123.4,y:306.65},5).to({regX:18.2,scaleY:0.983,skewX:-10.234,x:123.55,y:306.75},5).to({regX:18.1,scaleY:1.0494,skewX:-19.8662,x:123.45,y:306.7},5).to({regY:25,scaleY:1.1104,skewX:-29.5456,x:123.5,y:306.85},5).to({scaleY:1.2135,skewX:-38.0247,x:123.45,y:306.7},5).to({regY:25.1,scaleY:1.1194,skewX:-29.3061,x:123.55,y:306.9},5).to({scaleY:1.0255,skewX:-20.5853,x:123.45,y:306.8},5).to({regY:25.2,scaleY:0.9771,skewX:-10.6712,x:123.5,y:306.85},5).to({regY:24.9,scaleY:1,skewX:0,x:123.4,y:306.65},5).wait(1));
 
 	// Symbol_2
 	this.instance_2 = new lib.Symbol2("synched",0);
-	this.instance_2.setTransform(-123.55,306.65,1,1,0,0,0,18.1,24.9);
+	this.instance_2.setTransform(0,306.7,1,0.9639,0,0,0,18.1,24.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({skewX:9.9999,x:-123.5,y:306.6},19).to({skewX:0,x:-123.55,y:306.65},20).to({skewX:-9.9999,y:306.6},20).to({skewX:0,y:306.65},20).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({regY:25,scaleY:0.9888,skewX:12.1162,y:306.8},4).to({regX:18.2,regY:25.2,scaleY:1.0838,skewX:27.2638,y:306.95},5).to({regX:18.5,regY:25.1,scaleY:1.2321,skewX:38.6319,x:0.2,y:306.8},5).to({regX:18.2,scaleY:1.4932,skewX:50,x:-0.05,y:306.75},5).to({scaleY:1.2481,skewX:39.3451,x:0,y:306.9},5).to({regX:18.1,scaleY:1.0959,skewX:28.6873,x:0.05,y:306.75},5).to({regX:18.2,regY:25.2,scaleY:0.9894,skewX:14.3442,x:0.2,y:306.8},5).to({regX:18.1,regY:24.9,scaleY:0.9658,skewX:0,x:0,y:306.7},5).to({scaleY:0.9728,skewX:-10.2348,x:0.1,y:306.75},5).to({scaleY:1.0385,skewX:-19.8671,x:0.05},5).to({regX:18,regY:25,scaleY:1.0989,skewX:-29.5479,x:0,y:306.9},5).to({regY:25.1,scaleY:1.201,skewX:-38.0264,y:306.85},5).to({regX:17.9,scaleY:1.1103,skewX:-29.3059,x:-0.1,y:306.9},5).to({regX:18,regY:25.2,scaleY:1.0196,skewX:-20.5853,x:0.05},5).to({regX:17.9,scaleY:0.9743,skewX:-10.6722,x:-0.05,y:306.85},5).to({regX:18.1,regY:24.9,scaleY:1,skewX:0,x:0,y:306.65},5).wait(1));
 
-	// Layer_2
-	this.instance_3 = new lib.Symbol7copy("synched",0);
-	this.instance_3.setTransform(-0.05,282.65,1,1,0,0,0,271.9,391.2);
+	// Symbol_2
+	this.instance_3 = new lib.Symbol2("synched",0);
+	this.instance_3.setTransform(-123.55,306.7,1,0.9639,0,0,0,18.1,24.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:4.15},19,cjs.Ease.none).to({x:-0.05},20).to({x:-4.55},20,cjs.Ease.none).to({x:-0.05},20).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({regX:18,regY:25,scaleY:0.9955,skewX:12.1167,x:-123.65,y:306.85},4).to({regX:18.1,regY:24.9,scaleY:1.0969,skewX:27.264},5).to({regY:25,scaleY:1.2529,skewX:38.6323,x:-123.8,y:306.95},5).to({regX:18.2,regY:25.3,scaleY:1.5299,skewX:50.0003,x:-123.85,y:307},5).to({regY:25.4,scaleY:1.2564,skewX:39.3458,x:-123.8,y:307.1},5).to({scaleY:1.1136,skewX:28.6893,x:-123.7,y:306.85},5).to({regX:18.1,regY:25.6,scaleY:0.9943,skewX:14.3448,y:307},5).to({regY:24.9,scaleY:0.9639,skewX:0,x:-123.55,y:306.7},5).to({scaleY:0.9709,skewX:-10.2344,x:-123.5,y:306.75},5).to({scaleY:1.0364,skewX:-19.8676,x:-123.55},5).to({regX:18,regY:25,scaleY:1.0967,skewX:-29.5479,x:-123.65,y:306.9},5).to({regY:25.1,scaleY:1.1985,skewX:-38.0258,x:-123.5,y:306.85},5).to({scaleY:1.1085,skewX:-29.3067,x:-123.6},5).to({regX:17.9,scaleY:1.0185,skewX:-20.5861,x:-123.65,y:306.8},5).to({regY:25.2,scaleY:0.9738,skewX:-10.6718,x:-123.55,y:306.85},5).to({regX:18.1,regY:24.9,scaleY:1,skewX:0,y:306.65},5).wait(1));
 
 	// Layer_3
 	this.instance_4 = new lib.CachedBmp_3();
@@ -1591,7 +1591,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-151.4,-199.1,302.6,507.6);
+p.nominalBounds = new cjs.Rectangle(-164.9,-199.1,340.4,507.6);
 
 
 (lib.Symbol11 = function(mode,startPosition,loop,reversed) {
@@ -1717,7 +1717,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/tld_atlas_1.png?1636726881370", id:"tld_atlas_1"}
+		{src:"images/tld_atlas_1.png?1637684084314", id:"tld_atlas_1"}
 	],
 	preloads: []
 };
