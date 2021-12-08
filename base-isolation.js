@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_267 = function() {
+(lib.CachedBmp_271 = function() {
 	this.initialize(ss["base_isolation_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_266 = function() {
+(lib.CachedBmp_270 = function() {
 	this.initialize(ss["base_isolation_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_265 = function() {
+(lib.CachedBmp_269 = function() {
 	this.initialize(ss["base_isolation_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_264 = function() {
+(lib.CachedBmp_268 = function() {
 	this.initialize(ss["base_isolation_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -1597,7 +1597,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({regX:18,regY:25,scaleY:0.9955,skewX:12.1167,x:-123.65,y:306.85},4).to({regX:18.1,regY:24.9,scaleY:1.0969,skewX:27.264},5).to({regY:25,scaleY:1.2529,skewX:38.6323,x:-123.8,y:306.95},5).to({regX:18.2,regY:25.3,scaleY:1.5299,skewX:50.0003,x:-123.85,y:307},5).to({regY:25.4,scaleY:1.2564,skewX:39.3458,x:-123.8,y:307.1},5).to({scaleY:1.1136,skewX:28.6893,x:-123.7,y:306.85},5).to({regX:18.1,regY:25.6,scaleY:0.9943,skewX:14.3448,y:307},5).to({regY:24.9,scaleY:0.9639,skewX:0,x:-123.55,y:306.2},5).to({scaleY:0.9827,skewX:-12.4799,x:-123.5,y:306.3},5).to({regX:18,regY:25,scaleY:1.0643,skewX:-24.9599,x:-123.55,y:306.45},5).to({regX:17.8,regY:25.1,scaleY:1.2155,skewX:-37.4419,x:-123.6,y:306.5},5).to({regX:17.9,regY:25.2,scaleY:1.4879,skewX:-49.9215,x:-123.4,y:306.6},5).to({regX:17.8,regY:25.3,scaleY:1.209,skewX:-37.4423,x:-123.45,y:306.75},5).to({regX:17.7,regY:25.4,scaleY:1.0709,skewX:-24.9624,y:306.8},5).to({regX:17.6,scaleY:0.9844,skewX:-12.4812,x:-123.6},5).to({regX:18.1,regY:24.9,scaleY:0.9759,skewX:0,x:-123.55,y:306.65},5).wait(1));
 
 	// Layer_3
-	this.instance_4 = new lib.CachedBmp_266();
+	this.instance_4 = new lib.CachedBmp_270();
 	this.instance_4.setTransform(-147.15,-199.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(80));
@@ -1627,7 +1627,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.frame).to({skewX:4.0004,y:282.7},19,cjs.Ease.none).to({skewX:0,y:282.65},20).to({skewX:-4.0004,x:77.95,y:282.7},20).to({skewX:0},20).wait(1));
 
 	// Layer_3
-	this.instance = new lib.CachedBmp_267();
+	this.instance = new lib.CachedBmp_271();
 	this.instance.setTransform(-68.85,-195.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(80));
@@ -1660,6 +1660,14 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
+		// Enable touch events while allowing the touch events to bubble up to the document.
+		
+		createjs.Touch.enable(stage, false, true);
+		
+		// Don't let the stage to automatically prevent default touch events.
+		
+		stage.preventSelection = false;
+		
 		this.building.stop()
 		this.building2.stop()
 		this.animCtrl_Btn.txt.text = "Play";
@@ -1707,7 +1715,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.building},{t:this.building2}]}).wait(1));
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_265();
+	this.instance = new lib.CachedBmp_269();
 	this.instance.setTransform(107.35,1.85,0.5,0.5);
 
 	this.instance_1 = new lib.MicrosoftTeamsimage13();
@@ -1718,7 +1726,7 @@ if (reversed == null) { reversed = false; }
 	this.animCtrl_Btn.setTransform(441.7,372.4);
 	new cjs.ButtonHelper(this.animCtrl_Btn, 0, 1, 2, false, new lib.StartBtn(), 3);
 
-	this.instance_2 = new lib.CachedBmp_264();
+	this.instance_2 = new lib.CachedBmp_268();
 	this.instance_2.setTransform(37.7,356,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.animCtrl_Btn},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1736,7 +1744,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/base_isolation_atlas_1.png?1638953600055", id:"base_isolation_atlas_1"}
+		{src:"images/base_isolation_atlas_1.png?1638957282288", id:"base_isolation_atlas_1"}
 	],
 	preloads: []
 };
